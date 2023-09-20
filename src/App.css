@@ -1,0 +1,71 @@
+.App {
+  text-align: left; /* Căn lề trái */
+  font-family: 'Arial', sans-serif; /* Phong cách chữ */
+  background-color: #f0f0f0; /* Màu nền xám */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Header */
+.App-header {
+  background-color: #282c34; /* Đổi màu nền sang màu xanh oxford */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(16px + 2vmin); /* Tăng kích thước chữ cho header */
+  color: #ffffff; /* Màu chữ trắng cho header */
+  text-align: center; /* Căn lề giữa cho header */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Định dạng cho các mục và nội dung */
+.section {
+  margin: 20px 0; /* Khoảng cách giữa các mục */
+  padding: 20px; /* Khoảng cách giữa nội dung và mép của mục */
+  background-color: #ffffff; /* Màu nền trắng cho các mục */
+  border: 1px solid #ddd; /* Viền xám */
+  border-radius: 5px; /* Bo góc các mục */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Đổ bóng cho các mục */
+}
+
+.section-heading {
+  font-size: 24px; /* Kích thước chữ cho tiêu đề mục */
+  color: #007bff; /* Màu chữ xanh oxford cho tiêu đề mục */
+}
+
+.section-content {
+  font-size: 16px; /* Kích thước chữ cho nội dung mục */
+  color: #333333; /* Màu chữ xám đậm cho nội dung mục */
+}
+
+/* Footer */
+.App-footer {
+  background-color: #ffffff; /* Đổi màu nền sang màu xanh oxford */
+  text-align: center; /* Căn lề giữa cho footer */
+  padding: 10px; /* Khoảng cách giữa nội dung và mép của footer */
+  font-size: 14px;
+  color: #000000; /* Màu chữ trắng cho footer */
+}
